@@ -3,7 +3,7 @@ const projects = [
     id: 1,
   title: "DSC Society Website",
   description: "A comprehensive Developer Student Club website built with Next.js and modern web technologies. Features society member profiles, showcase events,Implemented event listings, announcements, user-friendly navigation., and contact functionality with a responsive design.",
-  image: "/dsc.png?height=300&width=500",
+  image: "/dsc.PNG?height=300&width=500",
   technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn/ui", "CSS3", "React"],
   github: "https://github.com/Archit-0/dsc-website",
   live: "https://dsc-bvcoe.vercel.app/",
