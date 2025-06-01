@@ -1,16 +1,19 @@
-import { Coffee,
+import { 
+  Coffee,
   Music,
-  Camera,
-  Gamepad2, } from "lucide-react";
+  Code,
+  Gamepad2,
+} from "lucide-react";
 
 
 
 const hobbies = [
   {
-    name: "Photography",
-    icon: Camera,
-    description: "Capturing moments and exploring creative perspectives",
-  },
+    name: "Coding",
+    icon: Code,
+    description: "Building software, solving problems, and exploring new technologies"
+},
+
   {
     name: "Gaming",
     icon: Gamepad2,

@@ -1,37 +1,22 @@
 const education = [
   {
-    degree: "Bachelor of Technology in Computer Science",
-    institution: "University of Technology",
-    year: "2020 - 2024",
-    gpa: "3.8/4.0",
+    degree: "Bachelor of Technology in Information Technology",
+    institution: "Bharati vidhyapeeth Institute of Technology",
+    year: "2022 - 2026",
+    gpa: "8.0/10",
     achievements: [
-      "Dean's List (2022, 2023)",
-      "Best Final Year Project Award",
-      "Programming Club President",
+      "1st place in TechQuiz Competition",,
+      "Programming Club head",
+      "Hackathon oganiser",
     ],
     coursework: [
       "Data Structures & Algorithms",
       "Database Management",
       "Web Development",
       "Software Engineering",
+      "Operating Systems",
     ],
   },
-  {
-    degree: "Full-Stack Web Development Bootcamp",
-    institution: "TechBootcamp Academy",
-    year: "2023",
-    gpa: "Certificate of Excellence",
-    achievements: [
-      "Top 5% of cohort",
-      "Best Team Project",
-      "Mentor Recognition",
-    ],
-    coursework: [
-      "MERN Stack",
-      "DevOps Basics",
-      "Agile Methodology",
-      "System Design",
-    ],
-  },
+ 
 ];
 export default education; 

@@ -5,14 +5,14 @@ const services = [
     description:
       "Building responsive, user-friendly web applications using modern frameworks and best practices.",
     icon: Globe,
-    technologies: ["React", "Vue.js", "Next.js", "TypeScript"],
+    technologies: ["React", "Next.js", "TypeScript"],
   },
   {
     title: "API Development & Integration",
     description:
       "Creating RESTful APIs and integrating third-party services for seamless data flow.",
     icon: Server,
-    technologies: ["Node.js", "Express", "MongoDB", "PostgreSQL"],
+    technologies: ["Node.js", "Express", "MongoDB",],
   },
   {
     title: "Responsive Website Design",
@@ -26,7 +26,7 @@ const services = [
     description:
       "Designing efficient database schemas and optimizing queries for better performance.",
     icon: Brain,
-    technologies: ["MongoDB", "MySQL", "PostgreSQL", "Firebase"],
+    technologies: ["MongoDB", "MySQL", "PostgreSQL", ],
   },
 ];
 export default services;
