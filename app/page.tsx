@@ -13,7 +13,7 @@ import Skills from "@/pages/Skills";
 import Project from "@/pages/Project";
 import Service from "@/pages/Service";
 import Learning from "@/pages/Learning";
-import { Contact } from "@/pages/Contact";
+import Contact  from "@/pages/Contact";
 
 export default function FreshGraduatePortfolio() {
   const [activeSection, setActiveSection] = useState("home");

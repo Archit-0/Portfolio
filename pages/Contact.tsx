@@ -11,7 +11,7 @@ import { Github, Mail, Linkedin } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-export const Contact = () => {
+const Contact = () => {
   return (
     <div>
       {" "}
@@ -144,3 +144,4 @@ export const Contact = () => {
     </div>
   );
 };
+export default Contact;
