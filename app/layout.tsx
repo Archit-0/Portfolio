@@ -2,11 +2,11 @@ import type React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "./../components/theme-provider"
+import { ThemeProvider } from "./../components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "John Doe - Portfolio",
+  title: "Archit jain",
   description: "Full Stack Developer & Creative Problem Solver",
   generator: "v0.dev",
 };
