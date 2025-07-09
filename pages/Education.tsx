@@ -59,7 +59,7 @@ const Education = () => {
                         {edu.year}
                       </Badge>
                       <div className="text-sm text-gray-400">
-                        GPA: {edu.cgpa}
+                        CGPA: {edu.cgpa}
                       </div>
                     </div>
                   </div>
