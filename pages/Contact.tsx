@@ -108,33 +108,51 @@ const Contact = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="grid grid-cols-2 gap-4">
+                  <form
+                    action="https://formspree.io/f/mnnvkylp"
+                    method="POST"
+                    className="space-y-4"
+                  >
+                    <div className="grid grid-cols-2 gap-4">
+                      <Input
+                        placeholder="First Name"
+                        name="First Name"
+                        required
+                        className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
+                      />
+                      <Input
+                        placeholder="Last Name"
+                        name="Last Name"
+                        required
+                        className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
+                      />
+                    </div>
                     <Input
-                      placeholder="First Name"
+                      placeholder="Email"
+                      type="email"
+                      name="Email"
+                      required
                       className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
                     />
                     <Input
-                      placeholder="Last Name"
+                      placeholder="Company"
+                      name="Company"
                       className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
                     />
-                  </div>
-                  <Input
-                    placeholder="Email"
-                    type="email"
-                    className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
-                  />
-                  <Input
-                    placeholder="Company"
-                    className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
-                  />
-                  <Textarea
-                    placeholder="Tell me about the opportunity..."
-                    rows={5}
-                    className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
-                  />
-                  <Button className="w-full bg-gradient-to-r from-[#00ffff] to-[#00ff9f] hover:from-[#00e6e6] hover:to-[#00e68c] text-black font-semibold">
-                    Send Message
-                  </Button>
+                    <Textarea
+                      placeholder="Tell me about the opportunity..."
+                      name="Message"
+                      rows={5}
+                      required
+                      className="bg-[#1a1a1a] border-[#2d2d2d] text-white placeholder:text-gray-500"
+                    />
+                    <Button
+                      type="submit"
+                      className="w-full bg-gradient-to-r from-[#00ffff] to-[#00ff9f] hover:from-[#00e6e6] hover:to-[#00e68c] text-black font-semibold"
+                    >
+                      Send Message
+                    </Button>
+                  </form>
                 </CardContent>
               </Card>
             </motion.div>
