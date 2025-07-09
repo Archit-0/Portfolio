@@ -3,7 +3,7 @@ const education = [
     degree: "Bachelor of Technology in Information Technology",
     institution: "Bharati vidhyapeeth Institute of Technology",
     year: "2022 - 2026",
-    gpa: "8.0/10",
+    cgpa: "8.3/10",
     achievements: [
       "1st place in TechQuiz Competition",,
       "Programming Club head",

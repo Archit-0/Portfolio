@@ -13,7 +13,7 @@ import Skills from "@/pages/Skills";
 import Project from "@/pages/Project";
 import Service from "@/pages/Service";
 import Learning from "@/pages/Learning";
-import Contact  from "@/pages/Contact";
+import Contact from "@/pages/Contact";
 
 export default function FreshGraduatePortfolio() {
   const [activeSection, setActiveSection] = useState("home");
@@ -242,7 +242,7 @@ export default function FreshGraduatePortfolio() {
                   →
                 </motion.div>
               </Button>
-              <a href="/Archit_jain_resume.pdf" download>
+              <a href="/Archit-jain_resume.pdf" download>
                 <Button
                   size="lg"
                   variant="outline"
@@ -270,8 +270,8 @@ export default function FreshGraduatePortfolio() {
                 <div className="text-sm text-gray-400">Projects</div>
               </div>
               <div className="text-center p-4 rounded-lg bg-[#1a1a1a] border border-[#2d2d2d]">
-                <div className="text-2xl font-bold text-[#007acc]">8.0</div>
-                <div className="text-sm text-gray-400">GPA</div>
+                <div className="text-2xl font-bold text-[#007acc]">8.3</div>
+                <div className="text-sm text-gray-400">CGPA</div>
               </div>
               <div className="text-center p-4 rounded-lg bg-[#1a1a1a] border border-[#2d2d2d]">
                 <div className="text-2xl font-bold text-[#00ffff]">100%</div>
